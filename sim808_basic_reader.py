@@ -1,15 +1,8 @@
 import serial
 import time
-import os
-import GPS_readings
-
-
-
 import io
-import time
 import pynmea2
-import serial
-import datetime
+
 
 def to_decimal_degree(datum, direction):
     datum = float(datum)
